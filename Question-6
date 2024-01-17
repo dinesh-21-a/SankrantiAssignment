@@ -1,0 +1,6 @@
+//Question - 6
+//Language - Python
+
+class Solution:
+    def plusOne(self, A):
+        return A
