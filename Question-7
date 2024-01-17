@@ -1,5 +1,5 @@
-//Question - 7
-//Language - Python
+//Question-7
+//Language-Python
 
 class Solution:
     def majorityElement(self, A):
