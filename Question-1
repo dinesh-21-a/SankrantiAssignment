@@ -1,5 +1,5 @@
-//Question - 1
-//Language - Python
+//Question-1
+//Language-Python
 
 class Solution:
     def candy(self, A):
