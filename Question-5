@@ -2,8 +2,6 @@
 //Language - Python
 
 class Solution:
-    # @param A : tuple of integers
-    # @return a list of integers
     def repeatedNumber(self, A):
         n = len(A)
         s = sum(A)
