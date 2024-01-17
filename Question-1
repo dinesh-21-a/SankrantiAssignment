@@ -1,0 +1,19 @@
+//Question - 1
+//Language - Python
+
+class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def candy(self, A):
+        n = len(A)
+        arr = [1 for i in range(n)]
+        for i in range(1, n):
+            if A[i] > A[i-1]:
+                arr[i] = arr[i-1] + 1
+        for i in range(n-2, -1, -1):
+            if A[i] > A[i+1] and arr[i] <= arr[i+1]:
+                arr[i] = arr[i+1] + 1
+         
+        return sum(arr)
+            
+
