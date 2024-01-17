@@ -2,8 +2,6 @@
 //Language - Python
 
 class Solution:
-    # @param A : tuple of integers
-    # @return an integer
     def maxProfit(self, A):
         n = len(A)
         max_profit = 0
