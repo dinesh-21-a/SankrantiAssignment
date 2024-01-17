@@ -2,8 +2,6 @@
 //Language : Python
 
 class Solution:
-    # @param A : integer
-    # @return a list of integers
     def getRow(self, A):
         curr = [1]*(A+1)
         if A<2 : return curr
