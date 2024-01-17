@@ -1,0 +1,12 @@
+//Question - 3
+//Language - Python
+
+class Solution:
+    # @param A : integer
+    # @return an integer
+    def climbStairs(self, A):
+        res = [1, 1]
+        for i in range(2, A+1):
+            res.append(res[i-1] + res[i-2])
+        return res[A]
+        
