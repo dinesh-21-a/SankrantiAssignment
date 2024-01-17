@@ -1,0 +1,11 @@
+//Question - 7
+//Language - Python
+
+class Solution:
+    def majorityElement(self, A):
+        my_freq_map = {k:0 for k in set(A)}
+        N = len(A)
+        for el in A:
+            my_freq_map[el] += 1
+            if my_freq_map[el]>(N//2):
+                return el
